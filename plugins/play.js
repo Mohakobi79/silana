@@ -43,7 +43,7 @@ await conn.sendMessage(m.chat, {text: loadd[i], edit: key })}
 
 handler.help = ['song', 'play']
 handler.tags = ['downloader']
-handler.command = /^s/i
+handler.command = /^play/i
 
 export default handler
 
