@@ -9,7 +9,7 @@ let handler = async (m, { conn, command, text }) => {
  '《███████▒▒▒▒▒▒》50%',
  '《██████████▒▒▒》70%',
  '《█████████████》100%',
- '> *_☯️ تم التحويل ✅ بنجاح ..._*'
+ '> *_☯️ تم التحميل ✅ بنجاح ..._*'
  ]
 
 let { key } = await conn.sendMessage(m.chat, {text: '_Loading_'})//Pengalih isu
