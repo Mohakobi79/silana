@@ -23,7 +23,7 @@ throw e
 }
 handler.help = ['tiktok','tt']
 handler.tags = ['downloader']
-handler.command = /^(tt|tiktok)$/i
+handler.command = /^(t|tiktok)$/i
 export default handler
 
 async function tiktok(urls) {
